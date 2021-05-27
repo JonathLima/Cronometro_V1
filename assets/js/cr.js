@@ -15,7 +15,7 @@ btnStart.addEventListener("click", () => {
 
         let format = (h < 10 ? '0' + h : h) + ':' + (m < 10 ? '0' + m : m) + ':' + (s < 10 ? '0' + s : s);
         document.getElementById('contador').innerText = format;
-    }, 50);
+    }, 10);
 
 })
 
