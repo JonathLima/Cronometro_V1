@@ -10,7 +10,7 @@ btnStart.addEventListener("click", () => {
     cron = setInterval(() => {
         s++;
 
-        if (s == 60) { s = 0; m++; }
+        if (s == 99) { s = 0; m++; }
         if (m == 60) { m = 0; h++; }
 
         let format = (h < 10 ? '0' + h : h) + ':' + (m < 10 ? '0' + m : m) + ':' + (s < 10 ? '0' + s : s);
