@@ -8,7 +8,7 @@ let m = 0;
 
 btnStart.addEventListener("click", () => {
     cron = setInterval(() => {
-        s++;
+        ms++;
 
         if (ms == 99) { ms = 0; s++; }
         if (s == 60) { s = 0; m++; }
